@@ -1,8 +1,13 @@
+// Augusto Valerio, RM: 562185
+// Vitor Rodrigues Tigre, RM: 561746
+// Jonas Esteves, RM: 564143
+// Mariana Silva Oliveira, RM: 564241
+
 #include <WiFi.h>        // Biblioteca para conectar o ESP32 ao Wi-Fi
 #include <ThingSpeak.h>  // Biblioteca para enviar dados ao ThingSpeak
 #include <DHT.h>         // Biblioteca para ler sensor DHT22
 
-// ------------------ CONFIGURAÇÃO DE SENSORES ------------------
+// ------------------ CONFIGURAÇÃO DE SENSORES -------------------
 #define DHTPIN 13        // Pino digital onde o DHT22 está conectado
 #define DHTTYPE DHT22    // Tipo do sensor DHT
 #define LDRPIN 23        // Pino analógico onde o sensor de luminosidade está conectado
